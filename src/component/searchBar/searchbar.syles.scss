@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+  .button-search {
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .button-search {
+    margin: auto;
+    padding-top: 10px;
+  }
+}
+.h1-heading {
+  color: #ccc;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

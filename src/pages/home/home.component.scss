@@ -1,0 +1,45 @@
+$font-color: rgb(233, 233, 233);
+$font-style: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+  'Lucida Sans Unicode';
+
+.corona-container {
+  margin-top: 20px;
+}
+.details-row {
+  padding-top: 30px;
+}
+.corona-heading {
+  color: $font-color;
+  font-family: $font-style;
+
+  &:after {
+  }
+}
+.img-corona {
+  width: 300px;
+  height: 300px;
+  animation: rotation 10s infinite linear;
+  position: relative;
+  left: 130px;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.details {
+  padding-top: 30px;
+  border-radius: 9px;
+  color: $font-color;
+
+  font-family: 'Playfair Display', serif;
+}
+.underline {
+  margin: 14px;
+}
+.h4 {
+  padding: 10px;
+}
