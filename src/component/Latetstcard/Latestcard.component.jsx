@@ -5,25 +5,25 @@ import Conora from '../../images/corona.png';
 function Latestcard(props) {
   return (
     <div>
-      <div class="tile">
-        <div class="wrapper">
-          <div class="header">Worldwide Statistics</div>
+      <div className="tile">
+        <div className="wrapper">
+          <div className="header">Worldwide Statistics</div>
 
-          <div class="banner-img">
+          <div className="banner-img">
             <img className="corona-image" src={Conora} alt="Image 1" />
           </div>
 
-          <div class="dates">
-            <div class="start">
+          <div className="dates">
+            <div className="start">
               <strong>STARTED</strong> DECEMBER 2019
               <span></span>
             </div>
-            <div class="ends">
+            <div className="ends">
               <strong>NOW</strong> {props.CoronaStastics.statistic_taken_at}
             </div>
           </div>
 
-          <div class="stats">
+          <div className="stats">
             <div>
               <strong>TOTAL CASES</strong> {props.CoronaStastics.total_cases}
             </div>
@@ -38,7 +38,7 @@ function Latestcard(props) {
             </div>
           </div>
 
-          <div class="stats">
+          <div className="stats">
             <div>
               <strong>NEW CASES</strong> {props.CoronaStastics.new_cases}
             </div>

@@ -41,18 +41,18 @@ class SearchBar extends Component {
         <div className="row">
           <div className="col-12 ">
             <form
-              class="form-inline my-2 my-lg-0 text-center"
+              className="form-inline my-2 my-lg-0 text-center"
               onSubmit={this.handleSubmit}
             >
               <input
-                class="form-control mr-sm-2"
+                className="form-control mr-sm-2"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
                 onChange={this.handleChange}
               />
               <button
-                class="btn btn-outline-success my-2 my-sm-0 button-search"
+                className="btn btn-outline-success my-2 my-sm-0 button-search"
                 type="submit"
               >
                 Search
